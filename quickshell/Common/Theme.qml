@@ -852,7 +852,7 @@ Singleton {
                 if (!SettingsData.matugenTemplateFoot)
 		    skipTemplates.push("foot");
 		if (!SettingsData.matugenTemplateNeovim)
-                    skipTemplates.push("neovim");
+                    skipTemplates.push("nvim");
                 if (!SettingsData.matugenTemplateAlacritty)
                     skipTemplates.push("alacritty");
                 if (!SettingsData.matugenTemplateWezterm)

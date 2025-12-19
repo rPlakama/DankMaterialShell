@@ -120,8 +120,7 @@ func runDank16(cmd *cobra.Command, args []string) {
 		fmt.Print(dank16.GenerateWeztermTheme(colors))
 	} else if isNeovim {
 		fmt.Print(dank16.GenerateNeovimTheme(colors))
-	}
-	else {
+	} else {
 		fmt.Print(dank16.GenerateGhosttyTheme(colors))
 	}
 }

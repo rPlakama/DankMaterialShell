@@ -845,8 +845,9 @@ Item {
                     visible: SettingsData.runDmsMatugenTemplates
                     checked: SettingsData.matugenTemplateFoot
                     onToggled: checked => SettingsData.set("matugenTemplateFoot", checked)
-		  }
-		  SettingsToggleRow {
+                }
+
+                SettingsToggleRow {
                     tab: "theme"
                     tags: ["matugen", "neovim", "terminal", "template"]
                     settingKey: "matugenTemplateNeovim"
@@ -856,6 +857,7 @@ Item {
                     checked: SettingsData.matugenTemplateNeovim
                     onToggled: checked => SettingsData.set("matugenTemplateNeovim", checked)
                 }
+
                 SettingsToggleRow {
                     tab: "theme"
                     tags: ["matugen", "alacritty", "terminal", "template"]
