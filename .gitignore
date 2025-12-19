@@ -102,6 +102,7 @@ go.work.sum
 # .idea/
 # .vscode/
 vim/
+/vim
 
 bin/
 
